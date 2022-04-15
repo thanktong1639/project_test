@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Screen Interactive</title>
+    <link rel="stylesheet" href="style.css">
+</html>
+<body>
+    <div class="login-wrapper"><!-- คลาสใหญ่ที่ใช้คุม -->
+        <div class="login-left"><!-- คลาสที่นำรูปภาพมาใช้จะต้องอยู่ฝั่งซ้าย -->
+            <img src="https://www.shutterstock.com/th/blog/wp-content/uploads/sites/16/2020/10/shutterstock_746328118.jpg" alt="">
+            <div class="h1">Click to REGISTER</div><!-- คลาสทำไว้เตรียมคลิก -->
+        </div>
+
+        <div class="login-right"><!-- คลาสหน้า Login จะต้องอยู่ฝั่งขวา -->
+            <div class="h2">Register</div><!-- แสดงหัวข้อ Register -->
+
+            <div class="form-group"><!-- คลาสหน้าช่องกรอกชื่อ-->
+                <input type="text" id="full-name" placeholder="Full Name">
+                <label for="full-name">Full Name</label>
+            </div>
+            <div class="form-group"><!-- คลาสหน้าช่องกรอก email-->
+                <input type="text" id="email" placeholder="Email">
+                <label for="Email">Email</label>
+            </div>
+            <div class="form-group"><!-- คลาสหน้าช่องกรอก password-->
+                <input type="password" id="password" placeholder="Password">
+                <label for="Password">Password</label>
+            </div>
+
+            <div class="checkbox-container"><!-- คลาสใส่checkbox-->
+                <input type="checkbox">
+                <div class="text-checkbox"><!-- คลาสใส่ตัวหนังสือในcheckbox-->
+                    I agree with the terms of sevice.
+                </div>
+            </div>
+
+            <div class="button-area"><!-- คลาสใส่ตัวbutton-->
+                <button class="btn btn-secondary">Login</button>
+                <button class="btn btn-primary">Sign Up</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
